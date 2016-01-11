@@ -1,0 +1,34 @@
+{
+  "name": "blogger",
+  "version": "1.0.0",
+  "description": "Blog site",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node -- --stage 1 --optional strict -- index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird-nodeify": "^1.0.0",
+    "body-parser": "^1.14.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.0",
+    "crypto": "0.0.3",
+    "datauri": "^1.0.0-alpha.5",
+    "ejs": "^2.3.4",
+    "express": "^4.13.3",
+    "express-session": "^1.13.0",
+    "express-then": "^1.0.3",
+    "lodash": "^3.10.1",
+    "mongoose": "^4.3.5",
+    "morgan": "^1.6.1",
+    "multiparty": "^4.1.2",
+    "nodeifyit": "^1.0.2",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "require-dir": "^0.3.0",
+    "songbird": "^1.0.1",
+    "trycatch": "^1.5.21"
+  }
+}
